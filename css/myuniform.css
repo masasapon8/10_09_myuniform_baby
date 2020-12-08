@@ -1,0 +1,19 @@
+#headerArea{
+    background: #21F805;
+    width: 100%;
+	position : fixed!important;
+	position : absolute; 
+}
+
+/* z-index で順番を指定する。数が大きいほど上に表示 */
+
+#base_tops{
+    width: 350px;
+}
+#base_pants{
+    width: 280px;
+    z-index: 2;
+}
+#base_shoes{
+    width: 180px;
+}
